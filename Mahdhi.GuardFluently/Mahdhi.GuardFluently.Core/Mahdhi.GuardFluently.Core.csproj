@@ -4,7 +4,32 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>ic_guard_100.ico</ApplicationIcon>
+    <PackageIcon>ic_guard_100.png</PackageIcon>
+    <Copyright>2022 - Mabrouk Mahdhi</Copyright>
+    <RepositoryUrl>https://github.com/mabroukmahdhi/Mahdhi.GuardFluently</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>.NET C# Guard Fluent</PackageTags>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>This is a simple library that helps you to use Microsoft.Toolkit.Diagnostics.Guard extensions with more fluency.</Description>
+    <PackageProjectUrl>https://github.com/mabroukmahdhi/Mahdhi.GuardFluently</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ic_guard_100.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\GuardFluently\Assets\img\ic_guard_100.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Toolkit.Diagnostics" Version="7.1.2" />
