@@ -2,6 +2,13 @@
 <img src="https://github.com/mabroukmahdhi/Mahdhi.GuardFluently/blob/main/Assets/logo/logo.svg" >
 </h1>
 
+### Nuget
+![Nuget](https://img.shields.io/nuget/v/Mahdhi.GuardFluently.Core)
+![Nuget](https://img.shields.io/nuget/dt/Mahdhi.GuardFluently.Core) 
+
+### Social
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fmabroukmahdhi%2FMahdhi.GuardFluently)
+![Twitter Follow](https://img.shields.io/twitter/follow/Mabrouk_Mahdhi?style=social)
 # Intoduction
 
 This is a simple library that helps you to use [Microsoft.Toolkit.Diagnostics.Guard](https://docs.microsoft.com/en-us/dotnet/api/microsoft.toolkit.diagnostics.guard?view=win-comm-toolkit-dotnet-7.0) extensions with more fluency.
