@@ -14,6 +14,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>This is a simple library that helps you to use Microsoft.Toolkit.Diagnostics.Guard extensions with more fluency.</Description>
     <PackageProjectUrl>https://github.com/mabroukmahdhi/Mahdhi.GuardFluently</PackageProjectUrl>
+    <Company>Mahdhi</Company>
+    <Authors>Mabrouk Mahdhi</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

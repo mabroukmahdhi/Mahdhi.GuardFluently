@@ -15,6 +15,7 @@ namespace Mahdhi.GuardFluently.Core.Primitives
         public ObjectGuards(object value, [CallerArgumentExpression("value")] string name = "")
             : base(value)
         {
+
         }
     }
 
